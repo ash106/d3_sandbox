@@ -81,7 +81,7 @@ $(document).ready(function() {
 
   // Map tutorial
   var width = 600,
-      height = 600;
+      height = 400;
 
   var svg = d3.select(".map")
       .attr("width", width)
