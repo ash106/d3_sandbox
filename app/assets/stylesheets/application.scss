@@ -10,11 +10,11 @@
   color: white;
 }
 
-.chart_two rect {
+.chart_two rect, .chart_three rect {
   fill: steelblue;
 }
 
-.chart_two text {
+.chart_two text, .chart_three text {
   fill: white;
   font: 10px sans-serif;
   text-anchor: end;
