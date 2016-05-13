@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  // Bar chart part 1
   var data = [4, 8, 15, 16, 23, 42];
 
   var x = d3.scale.linear()
@@ -13,6 +14,7 @@ $(document).ready(function() {
       .text(function(d) { return d; });
 
 
+  // Bar chart part 2a
   var width = 420,
       barHeight = 20;
 
@@ -40,6 +42,7 @@ $(document).ready(function() {
       .text(function(d) { return d; });
 
 
+  // Map tutorial
   var width = 600,
       height = 600;
 
