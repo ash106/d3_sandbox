@@ -163,6 +163,7 @@ $(document).ready(function() {
     svg.selectAll("path")
         .data(json.features)
       .enter().append("path")
-        .attr("d", path);
+        .attr("d", path)
+        .attr("class", "state");
   });
 });
